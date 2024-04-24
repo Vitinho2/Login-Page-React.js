@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.main-form h1{
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+/* Formulario */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-group{
+    width: 60%;
+    position: relative;
+    margin-top: 1em;
+}
+
+.input-group input{
+    background-color: #F0EDFF;
+    width: 100%;
+    padding: 1.1em 2.7em;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.input-group input::placeholder{
+    color: black;
+}
+
+.input-group .icon{
+    position: absolute;
+    top: 50%;
+    left: 0.5em;
+    transform: translateY(-50%);
+    pointer-events: none; 
+    height: 100%;
+}
+
+/* Botao Login */
+.buttonLogin{
+    background: linear-gradient(0.25turn, #9181F4, #5038ED);
+    color: white;
+    margin-top: 1.5em;
+    padding: 1.2em 2em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Separador */
+.separator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    margin-top: 1.5em;
+    text-align: center;
+    width: 100%;
+}
+
+.separator hr {
+    width: 60%; /* Define a largura da linha */
+}
+
+.separator p {
+    position: absolute;
+    top: -13px;
+    background-color: white; 
+    padding: 0 10px;
+}
+
+.separator span{
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+/* Others Login */
+.othersLogins{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    width: 60%;
+}
+
+.othersLogins .logins-groups{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1em solid rgb(186, 186, 186);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0.5em 0;
+}
+
+.othersLogins .logins-groups span{
+    font-size: large;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.iconLogin{
+    margin-right: 10px;
+}

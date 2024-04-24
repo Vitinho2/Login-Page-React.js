@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.mainLogin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.right{
+  background-image: url(../img/purple.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.blurry-rectangle{
+  position: relative;
+  width: 60%; 
+  height: 70%;
+  background-color: rgba(255, 255, 255, 0.2); /* cor de fundo com transparência */
+  backdrop-filter: blur(10px); /* efeito de desfoque no fundo */
+  border-radius: 10px; /* borda arredondada */
+  border: solid 0.1rem white;
+}
+
+.blurry-rectangle .woman-tablet{
+  background-image: url(./src/assets/img/womenWithTab.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 10px;
+}
+
+.blurry-rectangle .cubo{
+  background-image: url(./src/assets/img/cubo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 75%;
+  left: -40px;
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.blurry-rectangle .aboutRight{
+  color: white;
+  font-size: xx-large;
+  font-weight: 700;
+  line-height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.left,
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+}

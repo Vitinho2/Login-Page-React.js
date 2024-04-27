@@ -1,5 +1,3 @@
-![Logo Projeto](file:///C:/Users/Usuario/Downloads/projeto.PNG)
-
 # Pagina de Login
 Pagina de login desenvolvida com React + Vite
 

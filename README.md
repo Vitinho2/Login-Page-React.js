@@ -1,8 +1,14 @@
-# React + Vite
+![Logo Projeto](file:///C:/Users/Usuario/Downloads/projeto.PNG)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Pagina de Login
+Pagina de login desenvolvida com React + Vite
 
-Currently, two official plugins are available:
+## Introdução
+Esse projeto tem como objetivo o treinamento, foi minha primeira pagina em React, eu peguei o modelo dessa pagina aqui: (https://www.figma.com/community/file/1256871498988476466)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tecnologias usadas
+* [React JS]
+* [JavaScript]
+* [Vite]
+* [CSS]
+* [HTML]
